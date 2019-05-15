@@ -44,7 +44,9 @@
   
     <form action="index.php" method="POST" class="reservieren-form">
         <h1>Restaurant bearbeiten</h1>
-        <li><input type="text" name="preisklasse" placeholder="€€€€"></li>
+        <li><select name="Preisklasse"> <optgroup label="Preiskategorie">
+                <option>€€€€</option> <option>€€€</option> <option>€€</option> <option>€</option>
+                </optgroup> </select></li>
         <li><input type="text" name="bezirk" value="Mitte"></li>
         <li><input type="text" name="bild" value="restaurant1.png"></li>
         <button type="submit">Änderungen speichern</button>
