@@ -98,6 +98,11 @@ th {
    max-width: 400px;
    max-height: 300px;
    float: left;
+   transition: all 1s ease;
+   border-radius: 75%;
+  }
+  .custom-box img:hover {
+     border-radius: 5%;
   }
 
 
