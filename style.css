@@ -80,7 +80,7 @@ th {
 .custom-box {
      min-width: 100px;
      min-height: 100px;
-     margin: 1%;
+     margin: 10px;
      padding: 10px;
      border-radius: 10px;
      background-color: rgb(255, 255, 255);
@@ -94,12 +94,19 @@ th {
      font-size: 20px;
      margin: 5px;
   }
+  .custom-box p{
+   font-weight: 150;
+   font-size: 16px;
+   margin: 5px;
+   float: center;
+  }
   .custom-box img{
    max-width: 400px;
    max-height: 300px;
    float: left;
    transition: all 1s ease;
    border-radius: 75%;
+   margin: 8px;
   }
   .custom-box img:hover {
      border-radius: 5%;
