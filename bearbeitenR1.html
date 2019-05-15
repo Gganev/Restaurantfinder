@@ -40,17 +40,13 @@
         <div class="custom-box"> 
             <h1>Restaurant Voilá</h1>
             <a href="http://wikipedia.org/"><img src="restaurant1.png"></a> <p class="category">€€€€ Mitte</p> 
-            <div class="del-edit-res"> 
-                <table><tr>
-                    <th><form> <button class="del-button">löschen</button></th><th> <button class="reserve-button">reservieren</button></form></th>
-                </tr></table>
-            </div>
         </div>   
   
-    <form action="index.php" method="POST" class="bearbeiten-form">
+    <form action="index.php" method="POST" class="reservieren-form">
+        <h1>Restaurant bearbeiten</h1>
         <li><input type="text" name="preisklasse" placeholder="€€€€"></li>
         <li><input type="text" name="bezirk" value="Mitte"></li>
-        <input type="text" name="bild" value="restaurant1.png">
+        <li><input type="text" name="bild" value="restaurant1.png"></li>
         <button type="submit">Änderungen speichern</button>
      </form>
 

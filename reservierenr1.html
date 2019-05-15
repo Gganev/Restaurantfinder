@@ -42,11 +42,15 @@
             <a href="http://wikipedia.org/"><img src="restaurant1.png"></a> <p class="category">€€€€ Mitte</p> 
         </div>   
   
-    <form action="index.php" method="POST" class="reservieren-form">
+    <form action="restaurants.html" method="POST" class="reservieren-form">
+        <h1>Reservierungs-Anfrage</h1>
         <li><input type="text" name="name" placeholder="Name"></li>
         <li><input type="text" name="gaeste-anzahl" placeholder="Anzahl Gaeste"></li>
-        <input type="text" name="telefonnummer" value="0173 90 39 478">
-        <button type="submit">Reservierung tätigen</button>
+        <li><input type="text" name="telefonnummer" placeholder="Telefonnummer"></li>
+        <li><input type="text" name="email" placeholder="test@test.de"></li>
+        <li><input type="date" name="datum" placeholder="Datum"></li>
+        <li><input type="time" name="uhrzeit" placeholder="Uhrzeit"></li>
+        <button type="submit">Reservierung anfragen</button>
      </form>
 
    </div>
