@@ -37,41 +37,24 @@
             </div>
 
      <div class="main">
-            <div class="custom-box"> 
-                    <div class="del-edit-res">
-                           <h1>Grill Hans</h1>
-                          <button class="del-button">X</button> 
-                    </div><br>
-                    <a href="detailR1.html"><img src="bbq.jpg"></img></a><br>
-                     <p>€ | Pankow</p> <br>
-                </div>
         <div class="custom-box"> 
-            <div class="del-edit-res">
-                   <h1>Käsebucht</h1>
-                  <button class="del-button">X</button> 
-            </div><br>
-            <a href="detailR1.html"><img src="tee.jpg"></img></a><br>
-             <p>€€ | Prenzlauer Berg</p> <br>
-        </div>
-        <div class="custom-box"> 
-                <div class="del-edit-res">
-                       <h1>Voilá</h1>
-                      <button class="del-button">X</button> 
-                </div><br>
-                <a href="detailR1.html"><img src="pizza.jpg"></img></a><br>
-                 <p>€€€€ | Mitte</p> <br>
-            </div>
-        <div class="custom-box"> 
-                    <div class="del-edit-res">
-                           <h1>Restaurant hinzufügen</h1>
-                    </div><br>
-                    <a href="hinzufuegen.html"><img src="add.png"></img></a><br>
-                     
-        </div>
-       
-    </div>
+            <h1>Restaurant Hinzufügen</h1>
+            <a href="restaurants.html"><img src="add.png"></a> 
+        </div>   
+
+    <form action="index.php" method="POST" class="reservieren-form">
+        <h1>Restaurant bearbeiten</h1>
+        <li><select name="Preisklasse"> <optgroup label="Preiskategorie">
+                <option>€€€€</option> <option>€€€</option> <option>€€</option> <option>€</option>
+                </optgroup> </select></li>
+        <li><input type="text" name="bezirk" value="Mitte"></li>
+        <li><input type="text" name="bild" value="restaurant1.png"></li>
+        <button type="submit">Änderungen speichern</button>
+    </form>
+</div>
 
      <div class="footer"> <pre> Impressum  |  Kontakt  |  About Us </pre></div>
+
    </body>
 
 </html>

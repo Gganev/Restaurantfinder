@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+
+   <head>
+      <meta charset="utf-8">
+      <title> Restaurantfinder </title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+   </head>
+   <body>
+        
+        <div class="header"> 
+                    <div class="logo_container">
+                        <a href="restaurants.html"><h1>RESTAURANT<p><span>FINDER</span></h1></p></a>
+                    </div>
+    
+                    <div class="navigation">
+                        <table><tr>
+                            <th> <input type="search" placeholder="Suche"></th>
+                            <th><select name="Kategorie">       
+                                    <optgroup label="Bezirk">
+                                    <option>Mitte</option> <option>Prenzlauer Berg</option> <option>Pankow</option> <option>Friedrichshain</option>
+                                    </optgroup>
+                                    <optgroup label="Preiskategorie">
+                                    <option>€€€€</option> <option>€€€</option> <option>€€</option> <option>€</option>
+                                    </optgroup>                    
+                                    <optgroup label="Premium" disabled>
+                                    <option>Coupons</option> <option>Rabatte</option>
+                                    </optgroup>
+                                    <option selected>alles anzeigen</option>
+                                </select></th>
+                            <th><form> <button>Premium Login</button> </form></th>
+    
+    
+                        </tr></table>
+                    </div>
+            </div>
+
+     <div class="main">
+            <div class="custom-box">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4855.327674464832!2d13.412303657210867!3d52.521422460907196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e2200cf5e31%3A0x1ef4f33ba4e3c3ec!2sMcDonald&#39;s+Restaurant!5e0!3m2!1sde!2sde!4v1557939567341!5m2!1sde!2sde"></iframe>
+                   </div>
+
+        <div class="custom-box"> 
+            <h1>Grill Hans</h1>
+            <a href="restaurants.html"><img src="bbq.jpg"></a> 
+            <br>
+            <p>
+                <p>Adresse: Zieherweg 4, 12345, Pankow</p>
+                <p>Öffnungszeiten: 12:00 - 01:00 Mo - So </p>
+                <p>Preisklasse: € </p><br>
+                <p>Notiz: super für Events!</p>
+            </p>
+        </div>   
+  
+   
+ 
+    
+
+    <form action="index.php" method="POST" class="reservieren-form">
+        <h1>Restaurant bearbeiten</h1>
+        <li><select name="Preisklasse"> <optgroup label="Preiskategorie">
+                <option>€€€€</option> <option>€€€</option> <option>€€</option> <option>€</option>
+                </optgroup> </select></li>
+        <li><input type="text" name="bezirk" value="Mitte"></li>
+        <li><input type="text" name="bild" value="restaurant1.png"></li>
+        <button type="submit">Änderungen speichern</button>
+     </form>
+     <form action="restaurants.html" method="POST" class="reservieren-form">
+        <h1>Reservierungs-Anfrage</h1>
+        <li><input type="text" name="name" placeholder="Name"></li>
+        <li><input type="text" name="gaeste-anzahl" placeholder="Anzahl Gaeste"></li>
+        <li><input type="text" name="telefonnummer" placeholder="Telefonnummer"></li>
+        <li><input type="text" name="email" placeholder="test@test.de"></li>
+        <li><input type="date" name="datum" placeholder="Datum"></li>
+        <li><input type="time" name="uhrzeit" placeholder="Uhrzeit"></li>
+        <button type="submit">Reservierung anfragen</button>
+     </form>
+    </div>
+
+     <div class="footer"> <pre> Impressum  |  Kontakt  |  About Us </pre></div>
+
+   </body>
+
+</html>
