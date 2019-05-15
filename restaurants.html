@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+
+   <head>
+      <meta charset="utf-8">
+      <title> Restaurantfinder </title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+   </head>
+   <body>
+        
+        <div class="header"> 
+            <div class="inner_header">
+                <div class="logo_container">
+                    <a href="restaurants.html"><h1>RESTAURANT<p><span>FINDER</span></h1></a></p>
+                </div>
+
+                <div class="navigation">
+                    <table><tr>
+                        <th> <input type="search" placeholder="Suche"></th>
+                        <th><select name="Kategorie">       
+                                <optgroup label="Bezirk">
+                                <option>Mitte</option> <option>Prenzlauer Berg</option> <option>Pankow</option> <option>Friedrichshain</option>
+                                </optgroup>
+                                <optgroup label="Preiskategorie">
+                                <option>€€€€</option> <option>€€€</option> <option>€€</option> <option>€</option>
+                                </optgroup>                    
+                                <optgroup label="Premium" disabled>
+                                <option>Coupons</option> <option>Rabatte</option>
+                                </optgroup>
+                                <option selected>alles anzeigen</option>
+                            </select></th>
+                        <th><form> <button>Premium Login</button> </form></th>
+
+
+                    </tr></table>
+                </div>
+            </div>
+        </div>
+
+     <div class="main">
+         
+        <div class="custom-box"> 
+            <h1>Restaurant Voilá</h1>
+            <a href="http://wikipedia.org/"><img src="restaurant1.png"></a> <p class="category">€€€€ Mitte</p> 
+            <div class="del-edit-res"> 
+                <table><tr>
+                    <th><form> <button class="del-button"><a href="loeschenR1.html">löschen</a></button></th>
+                    <th> <button class="edit-button"><a href="bearbeitenR1.html">bearbeiten</a></button></th>
+                    <th> <button class="reserve-button">reservieren</button></form></th>
+                </tr></table>
+            </div>
+        </div>
+        <div class="custom-box"> 
+            Restaurant 2 <p>€ Pankow</p>
+        </div>
+        <div class="custom-box"> 
+            Restaurant 3 <p>€€€ Friedrichshain</p>
+        </div>
+        <div class="custom-box"> 
+            Restaurant 4 <p>€€ Prenzlauer Berg</p>
+        </div>
+    </div>
+
+     <div class="footer"> <pre> Impressum  |  Kontakt  |  About Us</pre></div>
+   </body>
+
+</html>
+
+<!--
+<h1>Restaurantfinder </h1> 
+            <input type="search" placeholder="Suche"> 
+            <select name="Kategorie">       
+                <optgroup label="Bezirk">
+                <option>Mitte</option> <option>Prenzlauer Berg</option> <option>Pankow</option> <option>Friedrichshain</option>
+                </optgroup>
+                <optgroup label="Preiskategorie">
+                <option>€€€€</option> <option>€€€</option> <option>€€</option> <option>€</option>
+                </optgroup>                    
+                <optgroup label="Premium" disabled>
+                <option>Coupons</option> <option>Rabatte</option>
+                </optgroup>
+                <option selected>alles anzeigen</option>
+            </select>
+            <form> <button>Premium Login</button> </form>
+            -->

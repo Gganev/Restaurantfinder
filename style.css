@@ -1,0 +1,167 @@
+* {
+   margin: 0;
+   padding: 0;
+   list-style:none;
+   text-decoration: none;
+   font-family: 'Montserrat';
+}
+
+.header {
+   width: 100%;
+   height:100px;
+   background-color: #101010;
+   box-shadow: 5px 5px 5px rgba(170, 170, 170, 0.507);
+   display:block;
+   color: white;
+   padding: 2%;
+}
+.inner_header {
+   width: 95%;
+   height: 100%;
+   display: block;
+   margin: 0 auto;
+   background-color: rgba(255, 0, 0, 0);
+}
+.logo_container {
+   height: 100%;
+   display: table;
+   float: left;
+}
+
+.logo_container h1 {
+height: 100%;
+display: table-cell;
+vertical-align: middle;
+font-size: 32px;
+font-family: 'Montserrat';
+font-weight: 200;
+}
+.logo_container h1 span{
+   font-weight: 800;
+}
+
+.navigation {
+   float: right;
+   height: 100%;
+   
+}
+
+th {
+   padding: 1%;
+}
+.main {
+   display: block;
+   min-height: 10%;
+   padding: 1em 0.2em;
+   max-height: 100%;
+   max-width: 100%;
+   text-align: center;
+ }
+ 
+.section {
+    flex: 1;
+    margin: 0 1em;
+ }
+ 
+
+.footer {
+    background-color: #101010;
+    color: white;
+    font-size: 12px;
+    height: 20px;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    float: left;
+    
+}
+
+.custom-box {
+     min-width:  300px;
+     max-width: 50%;
+     min-height: 300px;
+     max-height: 40%;
+     margin: 1%;
+     padding: 0px;
+     border-color: #101010;
+     border-width: 1px;
+     border-style: solid;
+     border-radius: 10px;
+     background-color: rgb(255, 255, 249);
+     box-shadow: 0px 5px 5px rgba(124, 124, 124, 0.507);
+     float:left;
+  }
+
+  .custom-box h1{
+     font-weight: bold;
+     font-size: 16px;
+     padding: 2%;
+  }
+
+  img{
+     max-width: 100%;
+     max-height: 100%;
+
+  }
+     
+  button {
+    box-shadow: 0px 3px 3px rgba(119, 119, 119, 0.507);
+    border: none;
+    background-color: rgb(238, 255, 255);
+    padding: 5%;
+    margin: 5%;
+    border-radius: 5px;
+  }
+
+.del-button {
+   background-color: rgb(253, 169, 169);
+   height: 30px;
+   width: 90px;
+   margin: 5%;
+   padding: 10%;
+   font-size: 12px;
+}
+.edit-button {
+   background-color: rgb(238, 253, 169);
+   height: 30px;
+   width: 90px;
+   margin: 5%;
+   padding: 10%;
+   font-size: 12px;
+}
+.reserve-button {
+   background-color: rgb(169, 253, 187);
+   height: 30px;
+   width: 90px;
+   margin: 5%;
+   padding: 10%;
+   font-size: 12px;
+}
+.category {
+   background-color: rgb(255, 255, 255);
+   margin: 2%;
+}
+
+.del-edit-res {
+   margin: 2%;
+   padding: 2%;
+   display: flex;
+   justify-content: center;
+}
+
+.bearbeiten-form {
+   margin: 2%;
+   padding: 2%;
+   display: inline-block;
+   background-color: rgb(238, 253, 169);
+   border-radius: 10px;
+}
+
+.reservieren-form {
+   margin: 2%;
+   padding: 2%;
+   display: inline-block;
+   background-color: rgb(169, 253, 187);
+   border-radius: 10px;
+
+}
